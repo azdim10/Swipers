@@ -1,4 +1,4 @@
-const mediaQuerys = window.matchMedia("(max-width:550px)")
+const mediaQuerys = window.matchMedia("(max-width:700px)")
 if (mediaQuerys.matches === true) {
 mySwiper = new Swiper(".swiper", {
   spaceBetween:16,
@@ -13,6 +13,5 @@ mySwiper = new Swiper(".swiper", {
 }
 
   
-
 
 
